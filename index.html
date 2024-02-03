@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Q-Future</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <style>
+        .menu-index {
+            color: rgb(255, 255, 255) !important;
+            opacity: 1 !important;
+            font-weight: 700 !important;
+        }
+    </style>
+<style>
+  /* 在页面中添加平滑滚动 */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* 其余的CSS样式 */
+</style>
+</head>
+
+<body>
+    <div class="menu-container"></div>
+    <div class="content-container">
+
+<div class="topbar"=>
+  <a class="active" href="#home">Home</a>
+  <a href="#challenge">Challenge</a>
+  <a href="#papers">Proceeding Papers</a>
+  <a href="#people">People</a>
+</div>
+
+
+
+        <!-------------------------------------------------------------------------------------------->
+    <div class="banner" style="width: 100%; text-align: center; margin:auto;">
+      <img style="width: 100%" src="img/header.png">
+</div> 
+        <!-------------------------------------------------------------------------------------------->
+        <div class="banner"; text-align: center;>
+            <div class="banner-table flex-column">
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <h2 class="add-top-margin-small">Q-Future Workshop @ ECCV2024</h2>
+                        <p class="text">
+                           Can we build visual evaluation systems <strong>with/for</strong> large-scale generative models (LGMs)?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="content">
+            <div class="content-table flex-column">
+                <!-------------------------------------------------------------------------------------------->
+                <!--Start News-->
+        <div class="flex-row"; id="challenge">
+
+                    <div class="flex-item flex-column full-width">
+<h1>Challenge</h1>
+<hr>
+                        <h2>Challenge Tracks</h2>
+                        <hr>
+                        <p class="text">
+                            The general focus of the challenges is to measure how emerging visual evaluation systems can precisely answer open-ended questions related to the corresponding 4 track scopes. To ensure more objective quantitative evaluation among participants, all track questions are multi-choice questions (MCQ) with multiple candidate options provided, and final metrics will be based on the accuracy on answering the MCQs.
+
+The tracks are as follows:
+                        </p>
+                            <!-------------------------------------------------------------------------------------------->
+
+<div>
+        <button class="rounded-button">Track 1: Single Image Quality Evaluation</button> Answering quality-related questions for single images.
+    </div>
+    <div>
+        <button class="rounded-button">Track 2: Comparative Quality Evaluation</button> Answering quality-related questions comparing multiple images.
+    </div>
+    <div>
+        <button class="rounded-button">Track 3: Aesthetic Evaluation</button> Answering aesthetic-related questions for single images.
+    </div>
+    <div>
+        <button class="rounded-button">Track 4: Alignment on Text-to-image Generation</button> Answering alignment questions between text and generated image.
+    </div>
+      <!-------------------------------------------------------------------------------------------->
+                            <!--Use the following commented block code to add news-->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  <span style="color: #1b7677;">[September 2022]</span>
+                  Description of the news.
+                </p>
+              </li> -->
+                            <!--Use the above commented block code to add news-->
+                        <!-- </ul>
+                        <p class="text">
+                            For more details, please visit the detailed <a href="archived-news.html">documentation</a>.
+                        </p> -->
+                    </div>
+                </div>
+                <!--End News-->
+                <!-------------------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------------------->
+                <!--Start Vacancies-->
+                <div class="flex-row">
+                    <div class="flex-item flex-column full-width">
+                        <h2>Datasets<a id="Datasets"></a></h2>
+                        <hr>
+
+                                <p class="text-small-margin">
+                                    <span style="color: #000000;"> Datasets for each challenge track can be accessed on their respective Codalab sites. All phase submissions should be made via the Codalab website. Participants are required to register on the site and follow the provided instructions for downloading datasets and submitting their results. The specific evaluation metrics for each track will be detailed on the relevant site.</span>
+                                </p>
+
+                                <p class="text-small-margin">
+                                    Link to Codalab: <strong><a href="www.google.com"><button class="rounded-button">Track 1</button></a><a href="www.google.com"><button class="rounded-button">Track 2</button></a><a href="www.google.com"><button class="rounded-button">Track 3</button></a><a href="www.google.com"><button class="rounded-button">Track 4</button></a></strong>
+                                </p>
+
+                            <!-------------------------------------------------------------------------------------------->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  There are currently no vacancies.
+                </p>
+                            <!-------------------------------------------------------------------------------------------->
+                            <!--Use the following commented block code to add vacancies-->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  <span style="color: #dc3545;">[Due 1 October 2022]</span>
+                  <a href="">YYY position XXX</a>: Title
+                </p>
+              </li> -->
+                            <!--Use the above commented block code to add vacancies-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item flex-column full-width">
+                        <h2>Important Dates<a id="Datasets"></a></h2>
+                        <hr>
+<table>
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <td>Site online</td>
+        <td>June 24, 2024</td>
+    </tr>
+    <tr>
+        <td>Release of training data and validation data</td>
+        <td>June 29, 2024</td>
+    </tr>
+    <tr>
+        <td>Validation server online</td>
+        <td>July 01, 2024</td>
+    </tr>
+    <tr>
+        <td>Release of test data, test server online</td>
+        <td>Aug 01, 2024</td>
+    </tr>
+    <tr>
+        <td>Test results submission deadline, test server closed</td>
+        <td>Aug 08, 2024</td>
+    </tr>
+    <tr>
+        <td>Fact sheets submission deadline</td>
+        <td>Aug 08, 2024</td>
+    </tr>
+    <tr>
+        <td>Final test and rating results release to participants</td>
+        <td>Aug 15, 2024</td>
+    </tr>
+</table>
+                            <!-------------------------------------------------------------------------------------------->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  There are currently no vacancies.
+                </p>
+              </li> -->
+                            <!-------------------------------------------------------------------------------------------->
+                            <!--Use the following commented block code to add vacancies-->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  <span style="color: #dc3545;">[Due 1 October 2022]</span>
+                  <a href="">YYY position XXX</a>: Title
+                </p>
+              </li> -->
+                            <!--Use the above commented block code to add vacancies-->
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-item flex-column full-width">
+                        <h2>Winner Award<a id="winner"></a></h2>
+                        <hr>
+                        <ul>
+                            <li>
+                                <p class="text-small-margin">
+                                    <span style="color: #000000;"> Each track's winning teams will be awarded a certificate and invited to present at the workshop. Moreover, we will invite track winners to publish proceeding papers at ECCV2024 Workshop.</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--End Vacancies-->
+                <!-------------------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------------------->
+                <!--Start Team-->
+
+
+
+<div class="flex-row"; id="papers">
+
+
+                    <div class="flex-item flex-column full-width">
+<h1>Proceeding Papers</h1>
+                        <hr>
+                        <h2>Call for Papers</h2>
+                        <hr>
+                            We welcome proceeding paper submission that are related to new trends provided, or new questions raised, by the powerful large-scale generative models in the domain of visual evaluation:
+
+<ul>
+    <li><strong>Can we develop better visual evaluation systems <em>with</em> LGM?</strong> This includes using MLLMs (or other generative models) to develop <em>novel</em> text-interactive visual evaluation systems, or utilizing these large generative models to improve the accuracy for <em>conventional</em> visual evaluation.</li>
+    <li><strong>Can we develop better visual evaluation systems <em>for</em> LGM?</strong> This includes not only more robust quality or aesthetic evaluators on AI-generated contents (AIGC), but also more advanced systems that can comprehensively examine whether the generated content follows the prompt of its creator.</li>
+</ul>
+
+We highly encourage top-performance challenge participants to submit a paper here.
+                            
+                    </div>
+                </div>
+
+
+<div class="flex-row">
+                    <div class="flex-item flex-column full-width">
+                        <h2>Important Dates<a id="Dates"></a></h2>
+                        <hr>
+<table>
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+
+    <tr>
+        <td>Submission online</td>
+        <td>Jul 01, 2024</td>
+    </tr>
+    <tr>
+        <td>Paper submission deadline</td>
+        <td>Aug 15, 2024</td>
+    </tr>
+    <tr>
+        <td>Notification to authors</td>
+        <td>Aug 27, 2024</td>
+    </tr>
+    <tr>
+        <td>Camera ready deadline</td>
+        <td>Sep 04, 2024</td>
+    </tr>
+</table>
+                            <!-------------------------------------------------------------------------------------------->
+                            <!-- <li>
+                <p class="text-small-margin">
+                  There are currently no vacancies.
+                </p>
+              </li> -->
+                            <!-------------------------------------------------------------------------------------------->
+                            <!--Use the following commented block code to add vacancies-->
+                <p class="text-small-margin">
+                  
+                </p>
+<p class="text-small-margin">
+                  
+                </p>
+              </li> 
+                            <!--Use the above commented block code to add vacancies-->
+                    </div>
+                </div>
+
+
+
+                <div class="flex-row"; id="people">
+                    <div class="flex-item flex-column full-width">
+<h1>People</h1>
+    <hr>
+                        <h2>Keynote Speakers</h2>
+                        <hr>
+<ul>
+                            <li>
+                                We will announce keynote speakers later.
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-------------------------------------------------------------------------------------------->
+                  <!-- <div class="gallery add-top-margin-small add-bottom-margin-small" id="current-team">
+                    <!-------------------------------------------------------------------------------------------->
+                    <!-- <div class="flex-column">
+                        <img src="img/people/marcel.jpeg">
+                        <h3>Marcel Worring</h3>
+                        <div>Head, Professor</div>
+                        <div>
+                            <a href="https://scholar.google.com/citations?user=pdu8f3sAAAAJ&hl=en">Scholar</a> &nbsp;|&nbsp;
+                            <a href="https://www.linkedin.com/in/marcel-worring/">LinkedIn</a>
+                        </div>
+                        <div>&nbsp;</div>
+                    </div> -->
+                    <!-------------------------------------------------------------------------------------------->
+                    <!-- <div class="flex-column">
+                        <img src="img/people/zeno.jpeg">
+                        <h3>Zeno Geradts</h3>
+                        <div>Professor</div>
+                        <div>
+                            <a href="https://scholar.google.com/citations?user=fX4Uvc0AAAAJ&hl=en">Scholar</a> &nbsp;|&nbsp;
+                            <a href="https://www.linkedin.com/in/forensic/?originalSubdomain=be">LinkedIn</a>
+                        </div>
+                        <div>also @ Netherlands Forensic Institute</div>
+                    </div> -->
+                    <!-------------------------------------------------------------------------------------------->
+                    <!-- <div class="flex-column">
+                        <img src="img/people/stevan.jpg">
+                        <h3>Stevan Rudinac</h3>
+                        <div>Associate Professor</div>
+                        <div>
+                            <a href="https://stevanrudinac.com/">Website</a>
+                        </div>
+                        <div>also @ Amsterdam Business School</div>
+                    </div> -->
+
+
+                    <div class="flex-row">
+                        <div class="flex-item flex-column full-width">
+                            <h2>Workshop Organizers</h2>
+                            <hr>
+<ul>
+                            <li>
+                                We will announce more organizers later.
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <!-------------------------------------------------------------------------------------------->
+                    <div class="gallery add-top-margin-small add-bottom-margin-small" id="current-team">
+                        <!-------------------------------------------------------------------------------------------->
+                        <div class="flex-column">
+                            <img src="img/people/wuhaoning.jpg">
+                            <h3>Haoning Wu</h3>
+                            <div>PhD Candidate, Lead@<a href="https://github.com/Q-Future">Q-Future</a></div>
+                            <div>
+                                <a href="https://scholar.google.com/citations?user=wth-VbMAAAAJ">Scholar</a> &nbsp;|&nbsp;
+                                <a href="https://teowu.github.io/">Homepage</a>
+                            </div>
+                            <div>Nanyang Technology University</div>
+                        </div>
+                        <!-------------------------------------------------------------------------------------------->
+                        <div class="flex-column">
+                            <img src="img/people/zhangzicheng.jpg">
+                            <h3>Zicheng Zhang</h3>
+                            <div>PhD Candidate, Co-Lead@<a href="https://github.com/Q-Future">Q-Future</a></div>
+                            <div>
+                                <a href="https://scholar.google.com/citations?user=QICTEckAAAAJ">Scholar</a> &nbsp;|&nbsp;
+                                <a href="https://github.com/zzc-1998">Homepage</a>
+                            </div>
+                            <div>Shanghai Jiao Tong University</div>
+                        </div>
+                        <!-------------------------------------------------------------------------------------------->
+
+                        <div class="flex-column">
+                            <img src="img/people/guangtao_zhai.jpeg";>
+                            <h3>Guangtao Zhai</h3>
+                            <div>Professor</div>
+                            <div>
+                                <a href="https://personal.ntu.edu.sg/wslin/Home.html">Website</a>
+                            </div>
+                            <div>Shanghai Jiao Tong University</div>
+                        </div>
+                        <div class="flex-column">
+                            <img src="img/people/weisi_lin_pad2square.png";>
+                            <h3>Weisi Lin</h3>
+                            <div>IEEE Fellow, Professor</div>
+                            <div>
+                                <a href="https://personal.ntu.edu.sg/wslin/Home.html">Website</a>
+                            </div>
+                            <div>Nanyang Technological University</div>
+                        </div>
+
+
+                    <!-------------------------------------------------------------------------------------------->
+                    <!-------------------------------------------------------------------------------------------->
+                    <!--Use the following commented block code to add a team member-->
+                    <!-- <div class="flex-column">
+            <img src="img/people/person.png">
+            <h3></h3>
+            <div></div>
+            <div>
+              <a href="">Website</a>
+              &nbsp;|&nbsp;
+              <a href="">LinkedIn</a>
+            </div>
+            <div>&nbsp;</div>
+          </div> -->
+                    <!--Use the above commented block code to add a team member-->
+                </div>
+                <!--End Team-->
+                <!-------------------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------------------->
+                <!--Start Alumni-->
+                    <!-------------------------------------------------------------------------------------------->
+                    <!--Use the following commented block code to add alumni-->
+                    <!-- <div class="flex-column">
+            <img src="img/people/person.png">
+            <h3></h3>
+            <div></div>
+            <div>
+              <a href="">Website</a>
+            </div>
+          </div> -->
+                    <!--Use the above commented block code to add alumni-->
+                </div>
+        <div class="flex-row">
+            <div class="flex-item flex-column full-width">
+                <h1>Contact Us<a id="contact"></a></h1>
+                <hr>
+                    <p class="text-small-margin">
+                        <span style="color: #000000;"> If you have any further questions, feel free to contact us via the details provided below.</span>
+                    </p>
+                    <p class="text-small-margin">
+                        <span style="color: #000000;"> Email: haoning001@e.NTU.edu.sg (Haoning Wu, NTU), zzc1998@sjtu.edu.cn (Zicheng Zhang, SJTU)</span>
+                    </p>
+                    <p class="text-small-margin">
+                        <span style="color: #000000;"> Copyright © Q-Future 2024</span>
+                    </p>
+            </div>
+        </div>
+</body>
+
+</html>
